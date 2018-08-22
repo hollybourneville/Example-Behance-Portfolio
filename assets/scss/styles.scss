@@ -12,6 +12,7 @@ body{
 		background-color: $mainColor;
 		height:200px;
 		padding-top: 1em;
+		padding-right: 2em;
 	}
 
 	h1{
@@ -19,7 +20,7 @@ body{
 		text-align:right;
 		font-size: 3em;
 		margin-bottom: 0;
-		padding-right: 1em;
+		// padding-right: 1em;
 		margin-top: 0;
 			
 	}
@@ -27,7 +28,7 @@ body{
 	#small{
 			margin-top: 0;
 			font-size: 2em;
-			padding-right: 2em;
+			
 			}
 
 }
@@ -107,5 +108,15 @@ li:hover .overlay{
 	}
 
 .container{
-	padding:1em;
+	padding:1em 2em 0 1em;
+
+	img{
+		max-width: 50%;
+		// transform:translateX(100%);
+	}
+}
+
+h3{
+	text-align: right;
+
 }
